@@ -1,0 +1,173 @@
+body {
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+}
+
+/*menu styles*/
+
+.menu{
+	padding: 26px 14px 21px;
+	background-color: #373c3f;
+}
+li{
+	font-family: 'Montserrat', sans-serif;
+	color: #ebebeb;
+	font-size: 15px;
+	text-transform: uppercase;
+	list-style-type: none;
+	display: inline-block;
+	letter-spacing: 0px;
+	cursor: pointer;
+}
+li:nth-child(2){
+	padding: 0px 0px 0px 26px;
+}
+li:nth-child(3){
+	padding: 0px 0px 0px 24px;
+}
+li:nth-child(4){
+	padding: 0px 0px 0px 27px;
+}
+li:nth-child(5){
+	padding: 0px 0px 0px 27px;
+}
+
+/*navigation styles*/
+.navigation{
+	display: none;
+}
+
+/*first-item styles*/
+.first-item{
+	background-color: #0b9eb5;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+h1{
+	margin: 0px;
+	padding: 193px 0px 0px 84px;
+	font-size: 60px;
+	letter-spacing: 3px;
+	line-height: 66px;
+	font-weight: 400;
+}
+h1 span:nth-child(2){
+	font-size: 59px;
+}
+/*.first-item-website*/
+
+.first-item-discr{
+	display: flex;
+	flex-direction: row;
+}
+.first-item-discr-website{
+	color: #a9d4dd;
+	display: inline-block;
+	margin: 46px 24px 161px 85px;
+	font-size: 36px;
+}
+.first-item-discr-nextItem{
+	font-family: 'Quicksand', sans-serif;
+	margin: 44px 0px 0px 307px;
+	font-size: 44px;
+	cursor: pointer;
+}
+
+/*second-item styles*/
+
+.second-item{
+	display: flex;
+	flex-direction: row;
+}
+.second-item-text{
+	padding: 101px 150px 99px 86px;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #27212c;
+	color: #9585a4;
+	letter-spacing: -2px;
+}
+.second-item-nextItem{
+	padding: 80px 107px 93px 98px;
+	font-size: 61px;
+	background-color: #bc3183;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*img-item styles*/
+
+.img-item{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	overflow: hidden;
+}
+.img-item-nextItem{
+	color: #fff;
+	padding: 112px 165px 125px 162px;
+	font-size: 50px;
+	background-color: #5b0fa1;
+	cursor: pointer;
+}
+.img-item-bridge{
+	width: 339px;
+	height: 296px;
+	overflow: hidden;
+	background-image: url(../img/bridge-1024.png);
+	background-position: -2px 0px;
+	background-repeat: no-repeat;
+}
+/*new*/
+.img-item-girl{
+	width: 340px;
+	height: 296px;
+	overflow: hidden;
+	background: url(../img/girl-1024.png) 0px -1px no-repeat;
+}
+/*text-bar styles*/
+
+.text-bar{
+	background-color: #ebebeb;
+	padding: 17px 14px 170px 81px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	letter-spacing: 0px;
+	color: #088ca5;
+}
+.text-bar-table{
+	display: flex;
+	flex-direction: row;
+}
+h3{
+	margin: 30px 0px 0px 0px;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.text-bar-table-col:nth-child(1){
+	font-size: 14px;
+	font-weight: 500;
+	color: #515151;
+	letter-spacing: 0px;
+	line-height: 26px;
+	margin: 0px 0px 0px 2px;
+}
+.text-bar-table-col:nth-child(2){
+	font-size: 14px;
+	font-weight: 500;
+	color: #515151;
+	letter-spacing: 0px;
+	line-height: 26px;
+	margin: 0px 0px 0px -6px;
+}
+.first-par{
+	margin: 0px 0px 0px 0px;
+	padding: 17px 60px 0px 2px;
+}
+.second-par{
+	margin: 0px 0px 0px 0px;
+	padding: 32px 55px 0px 0px;
+}
